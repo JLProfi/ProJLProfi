@@ -1,0 +1,128 @@
+::-webkit-scrollbar {
+    background-color: rgba(255, 255, 255, 0);
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, rgba(255, 0, 255, 0.336));
+    border-radius: 12px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+.bg1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    filter: brightness(0.12);
+}
+.bg2 {
+    position: absolute;
+    left: 0;
+    top: 1060px;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    filter: brightness(0.12);
+}
+
+.top_bar {
+    margin-top: 0;
+    color: rgba(240, 248, 255, 0);
+    background: linear-gradient(to left, rgb(48, 0, 48), rgb(88, 0, 88));
+    display: flex;
+    font-size: 400%;
+}
+.button_top {
+    position: inherit;
+    color: rgba(255, 0, 255, 0.336);
+    background-color: rgba(240, 248, 255, 0);
+    text-decoration: underline;
+    font-size: 40%;
+    margin-left: 10%;
+    margin: auto;
+    width: 10%;
+    height: 30px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+}
+.button_top:hover {
+    color: rgba(255, 0, 255, 0.445);
+}
+
+#button_top_games {
+    color: rgba(183, 0, 255, 0.336);
+}
+
+.h2 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 350%;
+    margin-top: 5%;
+    text-decoration: underline;
+}
+
+.zurzeit {
+    position: absolute;
+    width: 55%;
+    height: 150%;
+    margin-left: 2.5%;
+    background-color: rgba(240, 248, 255, 0.103);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    margin-top: 1.5%;
+    color: rgba(255, 255, 255, 0.5);
+}
+.h1_zurzeit {
+    text-align: center;
+    font-size: 230%;
+}
+.game_img {
+    width: 45%;
+    margin-left: 7.5%;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+.game_vid {
+    width: 85%;
+    height: 40%;
+    margin-left: 7.5%;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+.paragraphs {
+    font-size: 200%;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -28%;
+}
+
+
+.projects {
+    position: absolute;
+    width: 35%;
+    height: 80%;
+    margin-left: 62.5%;
+    background-color: rgba(240, 248, 255, 0.103);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    margin-top: 1.5%;
+    color: rgba(255, 255, 255, 0.5);
+}
+.h1_projects {
+    text-align: center;
+    font-size: 230%;
+}
